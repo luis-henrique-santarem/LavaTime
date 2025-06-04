@@ -19,7 +19,7 @@ Adiconar Usuário
 | Campo            | Valor de Teste        |
 |------------------|------------------------|
 | Nome             | Luis Guilherme         |
-| Email            | luisguilherme@email.com         |
+| Email            | luisguilherme@email.com|
 | Senha            | Senha123               |
 | Confirmar Senha  | Senha123               |
 
@@ -151,3 +151,107 @@ ser intuitivel e agradável
 
 ---
 
+## 🧪 ID: 006
+
+###  Nome do Teste:
+Adicionar usuario campos  invalidos
+
+###  Descrição:
+ Verefica como o sistema responde com um email invalido
+
+###  Pré-requisitos:
+ Usuário deve estar na tela de cadastro
+
+
+### Procedimentos (Passos para execução do teste):
+1.  Acessar a tela de cadastro
+2.  Preencher os campos obrigatórios com dados inválidos
+3.  Clicar no botão "Cadastrar"
+
+###  Dados de Entrada:
+| Campo            | Valor de Teste         |
+|------------------|------------------------|
+| Nome             | 22141443312132         |
+| Email            | eueueueututututu       |
+| Senha            | ************           |
+| Confirmar Senha  | ++++++++               |
+
+###  Resultado Esperado:
+deve returnar uma mensagem: "Campos invalidos"
+
+###  Resultado Obtido:
+ 
+
+###  Status do Teste:
+
+---
+
+## 🧪 ID: 007
+
+###  Nome do Teste:
+Adicionar Agendamentos com campos inválidos
+
+###  Descrição:
+ Verificar como o sistema responde o usuario quando tenta adicionar um agendamento com campos invalidos.
+
+###  Pré-requisitos:
+ Usuário deve estar na tela de Adicionar Agendamentos
+
+
+### Procedimentos (Passos para execução do teste):
+1.  Acessar a tela agendamento
+2.  Preencher os campos obrigatórios com dados inválidos
+3.  Clicar no botão "Agendar"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste  |
+|------------------|-----------------|
+| Dia             |    66666         |
+| Hora            |    27:99        |
+| Tipo            |    sua mãe      |
+
+###  Resultado Esperado:
+
+deve returnar uma mensagem: "Campos invalidos"
+
+###  Resultado Obtido:
+ 
+
+###  Status do Teste:
+
+---
+
+## 🧪 ID: 008
+
+###  Nome do Teste:
+Editar Agendamentos com campos invalidos
+
+###  Descrição:
+verificar como o sistema responde o usuario quando tenta editar um agendamento com campos invalidos.
+
+###  Pré-requisitos:
+ Usuário deve estar na tela de meus Agendamentos
+
+
+### Procedimentos (Passos para execução do teste):
+1.  Acessar a tela meus agendamentos
+2.  Preencher os campos obrigatórios com dados inválidos
+3.  Clicar no botão "Editar"
+
+### 🧾 Dados de Entrada:
+| Campo            | Valor de Teste  |
+|------------------|-----------------|
+| Dia             |    977777        |
+| Hora            |    99:000        |
+| Tipo            |    one punch man      |
+
+###  Resultado Esperado:
+
+deve returnar uma mensagem: "Campos invalidos"
+
+###  Resultado Obtido:
+ 
+
+###  Status do Teste:
+
+---
