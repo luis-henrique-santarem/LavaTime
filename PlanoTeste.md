@@ -10,6 +10,7 @@ Garantir que o sistema funcione corretamente nas funcionalidades de criação, e
 
 | Funcionalidade | Descrição |
 |----------------|-----------|
+|Adicionar Usuário | Usuario sera cadastrado |
 | Adicionar Agendamento | Usuário podera criar um agendamento para lavar o seu carro|
 | Editar Agendamento | Usuário podera editar os nixos caso tenha errado algo |
 | Excluir Agendamento | Usuário podera escluir seu agendamento caso não consiga levar seu carro |
