@@ -30,6 +30,7 @@ Garantir que o sistema funcione corretamente nas funcionalidades de criação, e
 
 |Funcionalidade | Critério de sucesso |
 |---------------|---------------------|
+| Adicionar Usuario |  O usuario deve conseguir se cadastrar |
 |Adicionar Agendamento | O agendamento deve aparecer corretamente no UI |
 | Editar Agendamento | O agendamento deve atualizar corretamente no UI |
 | Excluir Agendamento | O agendamento deve ser excluido corretamente |
