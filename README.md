@@ -15,7 +15,6 @@ O **LavaTime** foi criado para facilitar a vida de motoristas que não querem pe
 - 🕒 Escolha do dia e horário
 - 📍 Atendimento no local escolhido pelo cliente
 - 🧼 Lavagens com produtos de qualidade e profissionais capacitados
-- 🔔 Notificações sobre o status da lavagem
 
 ## 🚀 Tecnologias Utilizadas
 
